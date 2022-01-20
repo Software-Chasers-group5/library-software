@@ -1,0 +1,54 @@
+********************************************************THIS IS A HELP DOCUMENT************************************************************
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+(*please read this document completely to get awareness about this software)
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+====ABOUT====
+          This is a library management system designed to OPERATE and manage a virtual library which if fully functional
+and easy to operate and books and material can be issued and monitered with minimal man power and with maximum efficiency.
+
+
+
+====FREQUENTLY ASKED QUESTIONS====
+
+1.Who can access and use this software ?
+----> Only the verified memebers of the organisation can use and access this software.
+
+2.How do i create an account ?
+---->Go to the menu section in the application and choose register , it will ask an emain and a strong password , enter 
+then as ypu please and create account.
+
+3.What happens if i dont return the boook in time ? 
+--->You will be subjected to a temporory suspension of 6 hrs and after the completion of that suspension time you can
+as usally request the books.
+
+4.How can I suggest the organisation to add a new book int the inventory ? 
+--->You can mention the book details in the feedback section provided.
+
+5.What is the maximum time can a book saty with me ?
+--->You can rent a book maximum for 3 weeks.
+
+6.Are my book transactions being recorded?
+--->Yes your every transcation is being recorded by the adminstrator.
+
+7.Is this a free software ?
+--->Yes this is an absoluetly free software for the members of the organisation.
+
+8.How do i get to know that i have to return a book on a specific date ?
+--->Once a book is issued to you a timer starts and counts backwards and its sends an alert message to your registered 
+emal t return the book.
+
+
+===========================================================================================================================================
+
+
+::::::CONTACT DETAILS::::::
+
+--email:req5vvit@gmail.com
+--contact number:5654565767644
+
+
+===========================================================================================================================================
+
