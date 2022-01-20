@@ -17,7 +17,7 @@ public class Main {
     System.out.println("6.HELP");
     System.out.println("7.EXIT");		
     
-    
+    //The user selects the choice that they wanted.
     
    
     System.out.println("enter your choice");
