@@ -1,0 +1,62 @@
+import java.util.*;
+import java.text.*;
+class IssueBook {
+    public static void main(String args[]){
+      /**It stores the data in (Key, Value) pairs, and you can access them by an index of another type  */
+      /**hm hashmap stores the student id and no.of book already issued */
+         HashMap<String, Integer> hm=new HashMap<String, Integer>(); 
+      /**m hashmap stores the student id with date of issue */
+         HashMap<String, String> m=new HashMap<String, String>();
+         /** d hasmap stores the bookname and no.of book present */
+         HashMap<String, Integer> d=new HashMap<String, Integer>();
+        
+         hm.put("J4",1);
+         hm.put("J2",1);
+         hm.put("D5",2);
+         hm.put("B1",2);
+        
+        d.put("c",6);
+        d.put("Python",5);
+        d.put("Java",6);
+        d.put("SE",10);
+        
+		System.out.println("Enter Student Id,bookName");
+		Scanner c = new Scanner(System.in);
+		String studentId = c.nextLine();
+		Scanner c1 = new Scanner(System.in);
+		String bookName = c1.nextLine();
+	 /** it gives the date */
+      String pattern = "MM-dd-yyyy";
+      SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+      String date = simpleDateFormat.format(new Date());
+		  //System.out.println(date);
+      //it checks whether thestudent id is present in hashmap hm.
+		if(hm.containsKey(studentId))
+        {
+            int a=hm.get(studentId);
+            if(a<2){
+                System.out.println("you are eligible to issue");
+                int x=d.get(bookName);
+                if(x>0){
+                  //int x=d.get(bookName);
+                   m.put(studentId,date);
+                    d.put(bookName,++x);
+                   hm.put(studentId,++a);
+                   System.out.println("Issue Successful");
+                }
+                else
+                System.out.println("not possible");
+            }
+            else
+              System.out.println("you are not eligible");
+        }
+        else{
+          System.out.println("You are not eligible to issue");
+        }
+       // System.out.println(hm);
+       // System.out.println(m);
+	}
+
+    
+}
+
